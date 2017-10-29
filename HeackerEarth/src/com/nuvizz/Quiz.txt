@@ -1,0 +1,190 @@
+
+Predict the output of below Java code:
+
+public class test34 {
+    public static void main(String[] args) {
+        int b1=80;
+        int b2=10;
+        int b3;
+        b3 = ++b1 * b1 /100 + ++b2;
+        System.out.println("b3 = " + b3);
+    } }
+Max. Marks 10.0 
+ 81
+ 175
+ 176
+ 76
+ 
+ 2.
+Predict the output of below Java code:
+
+import java.util.*;
+    class vector {
+        public static void main(String args[]) {
+            Vector obj = new Vector();
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.addElement(new Integer(5));
+            obj.addElement(new Integer(2));
+            System.out.println(obj.capacity());
+        }
+    }
+Max. Marks 10.0 
+ 6
+ 5
+ 20
+ 10
+ 
+ 
+ 
+ 
+ 3.
+Predict the output of below Java code:
+
+class Demo{
+    public static void main(String args[])
+    {
+        String s = "Hello World";
+        int i = s.indexOf('o');
+        int j = s.lastIndexOf('l');
+        System.out.print(i + " " + j);
+
+    }
+}
+Max. Marks 10.0 
+ 4 8
+ 4 9
+ 5 9
+ 5 8
+ 
+ 
+ 
+ 4.
+Predict the output of below Java code:
+
+class N{
+    public static void main(String args[]){
+        if(1 + 1 + 1 + 1 + 1 + 1+ 1 == 7){
+            System.out.print("TRUE");
+        }
+        else{
+            System.out.print("FLASE");
+        }
+    }
+}
+Max. Marks 10.0 
+ FALSE
+ TRUE
+ 0
+ 1
+ 
+ 
+ 5.
+Predict the output of below Java code:
+
+   class TestClass {
+        int a =100;
+        public static void main(String args[] ) throws Exception {
+            int a=200;
+            TestClass t= new TestClass();
+            System.out.println(a);
+        t.m();}
+        void m()
+        {
+            System.out.println(a);
+        }
+    }
+Max. Marks 10.0 
+ 100 100
+ 200 100
+ 100 200
+ Compilation fails
+ 
+ 
+ 
+ 6.
+Which of these helps in inspecting the URL ?
+
+Max. Marks 10.0 
+ UrlFilenameViewController
+ MultiActionMultiActionController
+ CommandController
+ AbstractController
+ 
+ 
+ 7.
+What is the time complexity of the given code below ?
+
+function(int n)
+{
+    if(n == 1) return ;
+    for(i = 1 ; i <= n ; i++)
+        for(j = 1 ; j <= n ; j++)
+            printf("*") ;
+
+function(n-3) ;
+}
+Max. Marks 10.0 
+ O(n^2)
+ O(n^3)
+ O(nlogn)
+ O(n^2logn)
+ 
+ 
+ 
+ 8.
+What is a proper method of opening a file for writing as binary file?
+
+Max. Marks 10.0 
+ FILE *f = fopenb( "test.bin", "w" );
+ FILE *f = fwrite( "test.bin", "b" );
+ FILE *f = fwriteb( "test.bin" );
+ FILE *f = fopen( "test.bin", "wb" );
+ 
+ 
+ 9.
+Let 
+S
+S be a stack of size 
+n
+>=
+1
+n>=1. Starting with the empty stack, suppose we push the first 
+n
+n natural numbers in sequence, and then perform 
+n
+n pop operations. Assume that Push and Pop operation take 
+X
+X seconds each, and 
+Y
+Y seconds elapse between the end of one such stack operation and the start of the next operation. For 
+m
+>=
+1
+m>=1, define the stack-life of 
+m
+m as the time elapsed from the end of Push(m) to the start of the pop operation that removes 
+m
+m from 
+S
+S. The average stack-life of an element of this stack is
+
+Max. Marks 10.0 
+ n(X+ Y)
+ 3Y + 2X
+ n(X + Y)-X
+ Y + 2X
+ 
+ 
+ 10.
+A programmer discipline of always acquiring locks in a certain pre-defined order corresponds to which of the following deadlock handling strategies?
+
+Max. Marks 10.0 
+ Deadlock detection
+ Deadlock prevention
+ Deadlock avoidance
+ None of the above
+ 
+ 
+ 

@@ -1,0 +1,107 @@
+Let there be an array of size N, and the selection sort is used to sort it, how many times a swap function is called to complete the execution.
+
+Max. Marks 10.0 
+ NlogN times
+ logN times
+ N^2 times
+ N-1 times  -- correct 
+Which of the following shows the correct relationship among some of the more common computing times on algorithms ?
+
+Max. Marks 10.0 
+ O(log n) < O(n) < O( n* log n) < O(2^n) < O(n^2)
+ O(n) < O(log n) < O( n* log n) < O(2^n) < O(n^2)
+ O(n) < O(log n) < O( n* log n) < O(n^2) < O(2^n)
+ O(log n) < O(n) < O( n* log n) < O(n^2) < O(2^n)  -- correct
+
+
+Find the time complexity of the code snippet given below :
+
+void fun()
+{
+    int i , j ;
+    for(i = 1 ; i <= N ; ++i)
+        for j = 1 ; j <= log(i) ; ++j)
+            printf("HackerEarth") ;
+}
+Max. Marks 10.0 
+ O(N^2)
+ O(logn!)
+ O(NlogN)  -- correct
+ O(Nlog^2N)
+
+
+What is the time complexity of the given code below ?
+
+function(int n)
+{
+    if(n == 1) return ;
+    for(i = 1 ; i <= n ; i++)
+        for(j = 1 ; j <= n ; j++)
+            printf("*") ;
+
+function(n-3) ;
+}
+Max. Marks 10.0 
+ O(n^2)
+ O(n^3)
+ O(nlogn)
+ O(n^2logn)  -- correct
+
+A friend function has access to which member/members of the class for which it is a friend?
+
+Max. Marks 10.0 
+ Private & protected members  -- correct
+ Public & protected members
+ Private & public members
+ Only private member
+ Only protected member
+
+Which of these best describes the below code?
+
+class M : public N, public P 
+{}
+Max. Marks 10.0 
+ Multilevel inheritance
+ Multiple inheritance  -- correct
+ Hybrid inheritance
+ Hierarchical Inheritance
+
+
+
+
+
+
+Without the use of Cartesian product, how many joining conditions are required to join 4 tables ?
+
+Max. Marks 10.0 
+ 1
+ 2
+ 3  --correct
+ 4
+
+
+
+A list consists of last names, first names, addresses, and pin codes if all people in the list have the same last and the same pin code, a useful key would be
+
+Max. Marks 10.0 
+ the pin code
+ the last name
+ a compound key consisting of the first name and the last name  -- correct
+ All of the above
+
+
+In SQL, which command(s) is(are) used to enable/disable a database trigger?
+
+Max. Marks 10.0 
+ ALTER TRIGGER  -- correct
+ ALTER DATABASE
+ ALTER TABLE
+ MODIFY TRIGGER
+
+A machine took 200 sec to sort 200 names, using bubble sort. In 800 sec, it can approximately sort ?
+
+Max. Marks 10.0 
+ 400 names  -- correct
+ 800 names
+ 750 names
+ 1000 names
